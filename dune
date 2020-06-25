@@ -1,0 +1,4 @@
+;; This declares the tcp_spy executable implemented by tcp_spy.ml
+(executable
+ (name tcp_spy)
+ (libraries Core async))
